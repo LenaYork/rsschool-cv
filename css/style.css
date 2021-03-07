@@ -1,0 +1,122 @@
+@media all and (max-width: 950px) {
+    .code-example-pic {
+        height: 150px;
+    }
+
+    .container {
+        margin: 2px 2px;  
+    }
+}
+
+@media all and (min-width: 950px) {
+    .code-example-pic {
+        height: 300px;
+    }
+
+    .container {
+        margin: 15px auto;  
+    }
+}
+
+body {
+    background-color: #84b6f7;
+}
+
+.container {
+    max-width: 800px;
+    padding: 15px 30px;
+    background-color:  #2f2ff0;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #0d0daf;
+}
+
+h1 {
+    color: burlywood;
+}
+
+ h3 {
+    color: #4d4444;
+}
+
+h3 {
+    padding: 5px 15px;
+    background-color: #84b6f7;
+    border-radius: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    color: #9999fa;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#8686ee;
+    font-weight: bold;
+}
+
+a:visited {
+    color:#8686ee;
+}
+
+.avatar-pic {
+    height: 200px;
+    margin-top:10px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #0d0daf;
+}
+
+.contacts li {
+    color: #222203;
+}
+
+.contacts a {
+    color:   #7171eb;
+}
+
+.contact-item a:hover {
+    font-weight: bold;
+    color: #8686ee;
+}
+
+.bio {
+    display: flex;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+.bio p {
+    margin-right: 25px;
+}
+
+ul {
+    list-style: none;
+}
+
+.contacts ul {
+    list-style: circle; 
+}
+
+.skills ul li:before {
+    content: '✓ ';
+}
+
+.code-example ul li:before {
+    content: '~ ';
+}
+
+.experience ul li {
+    list-style-type: circle;
+}
+
+p {
+    padding: 0 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
