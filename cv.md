@@ -8,3 +8,17 @@ Having been teaching English for many years I've realized how important the lang
 
 ---
 
+### __Skills__
+I have been using:
+
++ [x] javascript 
++ [x] html 
++ [x] css 
++ [x] ReactJS for SPA
++ [x] Git VCS
+
+I've also used *Bootstrap CSS* and *jQuery* librarues and *Wordpress* CMS.
+
+Besides, I have basic knowledge of *Python*, *PHP*, *Java* and *SQL*.
+
+---
