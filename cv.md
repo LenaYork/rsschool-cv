@@ -22,3 +22,27 @@ I've also used *Bootstrap CSS* and *jQuery* librarues and *Wordpress* CMS.
 Besides, I have basic knowledge of *Python*, *PHP*, *Java* and *SQL*.
 
 ---
+
+### __Coding examples__
+Here you can have a look at my code example:
++ [Horoscope](https://github.com/LenaYork/horoscope)
++ [Learn English words](https://github.com/LenaYork/Cubs)
++ [Clock](https://github.com/LenaYork/Clock)
++ [Caller ID](https://github.com/LenaYork/Caller-ID)
+
+Here is a short code example:
+```javascript
+    rootDiv.appendChild(explanation);
+    const form = document.createElement('form');
+    form.setAttribute('method', 'post');
+    rootDiv.appendChild(form);
+    let signList = document.createElement('select');
+    signList.setAttribute('id', 'select');
+    form.appendChild(signList);
+    signs.map( (elem, i) => {
+        let newOption = document.createElement('option');
+        newOption.setAttribute('value', elem);
+        newOption.innerText = signDates[i];
+        signList.appendChild(newOption);
+    });
+```
