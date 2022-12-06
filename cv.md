@@ -63,3 +63,12 @@ Here are some examples (the code of each one can be seen in code example part ab
 - [Clock](https://lenayork.github.io/Clock/)
 
 ---
+
+### __Education__
+I graduated from BSTTU, got a bachelor degree as a psychologyst and an English teacher. I've been learning programming online:
+* "Complete Web Developer Course" 3.0 (Udemy)
+* html academy
+* sololearn 
+* RSSchool 2022
+
+---
