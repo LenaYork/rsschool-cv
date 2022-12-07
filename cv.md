@@ -74,12 +74,12 @@ I graduated from BSTTU, got a bachelor degree as a psychologyst and an English t
 ---
 
 ### __Languages__
-English: C1 (Advanced)
+**English:** C1 (Advanced)
 
-Belarusian: Native/Bilingual Proficiency
+**Belarusian:** Native/Bilingual Proficiency
 
-Russian: C2 (Proficiency)
+**Russian:** C2 (Proficiency)
 
-Polish: A1 (Beginner)
+**Polish:** A1 (Beginner)
 
-Basic knowledge of Hindi and Greek
+Basic knowledge of *Hindi* and *Greek*
