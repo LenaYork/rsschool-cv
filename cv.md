@@ -17,7 +17,7 @@ I have been using:
 + [x] ReactJS for SPA
 + [x] Git VCS
 
-I've also used *Bootstrap CSS* and *jQuery* librarues and *Wordpress* CMS.
+I've also used *Bootstrap CSS* and *jQuery* libraries and *Wordpress* CMS.
 
 Besides, I have basic knowledge of *Python*, *PHP*, *Java* and *SQL*.
 
@@ -75,11 +75,7 @@ I graduated from BSTTU, got a bachelor degree as a psychologyst and an English t
 
 ### __Languages__
 **English:** C1 (Advanced)
-
 **Belarusian:** Native/Bilingual Proficiency
-
 **Russian:** C2 (Proficiency)
-
 **Polish:** A1 (Beginner)
-
 Basic knowledge of *Hindi* and *Greek*
