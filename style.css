@@ -1,3 +1,171 @@
-h1 {
-    color: #0b87bc;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,700;1,300&display=swap');
+
+html {
+    transition: 1s;
+    scroll-behavior: smooth;
 }
+
+body {
+    background-color: #84b6f7;
+}
+
+a {
+    color: #1789d2;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#4d4444;
+    text-shadow: 1px 1px 1px #050428;
+}
+
+a:visited {
+    color:#7d06ed;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #064c59;
+}
+
+.container {
+    max-width: 800px;
+    padding: 15px 30px;
+    background-color:  #d9d9ee;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #5f5ff0;
+}
+
+.avatar-pic {
+    height: 200px;
+    margin-right: 2px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #5f5ff0;
+}
+
+h2 {
+    color: #4d4444;
+    padding: 5px 15px;
+    background-color: #84b6f7;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.bio {
+    display: flex;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+.bio p {
+    margin-right: 25px;
+    line-height: 1.3;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style: none;
+}
+
+.contacts ul li:before {
+    content: '➢';
+}
+
+.skills ul li:before, .languages ul li:before {
+    content: '✓ ';
+}
+
+.code-example ul li:before, .education ul li:before {
+    content: '~ ';
+}
+
+.experience ul li {
+    list-style-type: circle;
+}
+
+.experience ul li:before {
+    content: '';
+}
+
+li {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    padding: 0 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-pic {
+    width: 100px;
+    align-self: center;
+}
+
+.menu-icon:hover {
+    cursor: pointer;
+}
+
+.hidden-nav {
+    display: none;
+}
+
+h3 {
+    color: #4d4444;
+}
+
+.education-item, .experience-item {
+    border-radius: 15px;
+    border: 2px solid #6060e8;
+    margin-bottom: 10px;
+    padding: 5px 15px;
+}
+
+.education-year, .experience-year {
+    font-style: italic;
+}
+
+@media all and (max-width: 950px) {
+    .code-example-pic {
+        height: 150px;
+    }
+
+    .container {
+        margin: 2px 2px;  
+    }
+}
+
+@media all and (min-width: 950px) {
+    .code-example-pic {
+        height: 300px;
+    }
+
+    .container {
+        margin: 15px auto;  
+    }
+}
+
+@media all and (max-width: 630px) {
+    h1 {
+        padding-bottom: 40px;
+    }
+
+    .avatar-pic {
+        display: none;    
+    }
+}
+
+@media all and (max-width: 525px) {
+    h1 {
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+}
+
+@media all and (max-width: 450px) {
+   
+}
+
