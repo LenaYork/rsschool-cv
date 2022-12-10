@@ -23,6 +23,14 @@ a:visited {
     color:#7d06ed;
 }
 
+p {
+    padding: 0 5px;
+}
+
+ul {
+    margin: 5px;
+}
+
 h1 {
     font-family: 'Josefin Sans', sans-serif;
     color: #064c59;
@@ -91,9 +99,9 @@ li {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-p {
-    padding: 0 5px;
-}
+.skills p, .contacts p {
+    margin: 10px;
+} 
 
 .footer {
     display: flex;
@@ -126,6 +134,7 @@ h3 {
 
 .education-year, .experience-year {
     font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 @media all and (max-width: 950px) {
