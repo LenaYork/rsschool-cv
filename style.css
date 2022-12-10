@@ -113,12 +113,45 @@ li {
     align-self: center;
 }
 
+.header {
+    position: relative;
+}
+
+.menu-icon {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    transition: 2s; 
+}
+
 .menu-icon:hover {
     cursor: pointer;
 }
 
+.menu-icon:hover {
+    transform: rotate(180deg);
+    width: 50px;
+}
+
+.menu-nav {
+    position: absolute;
+    top: 50px;
+    right: 5px;
+    width: 205px;
+    animation: showMenu 0.7s;
+}
+
 .hidden-nav {
     display: none;
+}
+
+@keyframes showMenu {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 h3 {
@@ -135,6 +168,33 @@ h3 {
 .education-year, .experience-year {
     font-style: italic;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.menu-nav li{
+    background-color: #84b6f7;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.menu-nav .menu-ul li a {
+    transition: 1s;
+}
+
+.menu-nav .menu-ul li a:hover{
+    text-shadow: 1px 1px #0a5fe7ff;
+    margin-left: 10px;
+}
+
+.menu-nav li:first-child {
+    padding-top: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.menu-nav li:last-child {
+    padding-bottom: 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 @media all and (max-width: 950px) {
@@ -173,8 +233,3 @@ h3 {
         padding-bottom: 50px;
     }
 }
-
-@media all and (max-width: 450px) {
-   
-}
-
