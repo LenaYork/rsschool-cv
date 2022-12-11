@@ -199,6 +199,12 @@ h3 {
     border-bottom-right-radius: 15px;
 }
 
+.js-example {
+    background-color: black;
+    color: white;
+    /* padding: 10px 0; */
+}
+
 @media all and (max-width: 950px) {
     .code-example-pic {
         height: 150px;
