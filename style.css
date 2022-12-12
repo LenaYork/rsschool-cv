@@ -137,9 +137,9 @@ li {
 
 .menu-nav {
     position: absolute;
-    top: 50px;
+    top: 45px;
     right: 5px;
-    width: 205px;
+    width: 245px;
     animation: showMenu 0.7s;
 }
 
@@ -176,6 +176,8 @@ h3 {
     background-color: #84b6f7;
     padding-left: 5px;
     font-weight: bold;
+    padding: 8px;
+    font-size: 23px;
 }
 
 .menu-nav .menu-ul li a {
@@ -205,16 +207,6 @@ h3 {
     /* padding: 10px 0; */
 }
 
-@media all and (max-width: 950px) {
-    .code-example-pic {
-        height: 150px;
-    }
-
-    .container {
-        margin: 2px 2px;  
-    }
-}
-
 @media all and (min-width: 950px) {
     .code-example-pic {
         height: 300px;
@@ -222,6 +214,16 @@ h3 {
 
     .container {
         margin: 15px auto;  
+    }
+}
+
+@media all and (max-width: 950px) {
+    .code-example-pic {
+        height: 150px;
+    }
+
+    .container {
+        margin: 2px 2px;  
     }
 }
 
@@ -239,5 +241,17 @@ h3 {
     h1 {
         font-size: 30px;
         padding-bottom: 50px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 610px) {
+    .js-example {
+        font-size: 9px;
     }
 }
