@@ -336,3 +336,45 @@ body {
   line-height: 1.6;
   text-align: justify;
 }
+
+
+/* footer */
+.footer {
+  background: #fff;
+  padding: 24px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.footer_content a {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer_icon {
+  height: 28px;
+  width: auto;
+  display: block;
+}
+
+.footer_year {
+  color: #888;
+  font-size: 15px;
+}
+
+.footer_logo {
+  height: 30px;
+  width: auto;
+  display: block;
+}
