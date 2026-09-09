@@ -202,6 +202,7 @@ body {
   color: #555;
   font-size: 15px;
   margin-bottom: 10px;
+  text-align: justify;
 }
 
 .projects_stack {
@@ -215,6 +216,7 @@ body {
   background: #f0f0f0;
   padding: 4px 12px;
   margin-right: 10px;
+  margin-bottom: 10px;
   border-radius: 12px;
   font-size: 13px;
   color: #222;
@@ -293,10 +295,44 @@ body {
   font-size: 14px;
   color: #777;
   margin-bottom: 4px;
+  text-align: justify;
 }
 
 .education_note {
   font-size: 15px;
   color: #555;
   margin-bottom: 6px;
+  text-align: justify;
+}
+
+/* english */
+.english {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 40px;
+}
+
+.english_title {
+  font-size: 28px;
+  margin-bottom: 24px;
+  color: #1a1a1a;
+}
+
+.english_item {
+  margin-bottom: 16px;
+}
+
+.english_item h3 {
+  font-size: 18px;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.english_item p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+  text-align: justify;
 }
