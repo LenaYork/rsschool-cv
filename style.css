@@ -90,3 +90,46 @@ body {
   font-size: 15px;
   color: #222;
 }
+
+/* experience */
+.experience {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 40px;
+}
+
+.experience_title {
+  font-size: 28px;
+  margin-bottom: 24px;
+  color: #1a1a1a;
+}
+
+.experience_item {
+  margin-bottom: 28px;
+}
+
+.experience_item h3 {
+  font-size: 18px;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.experience_meta {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.experience_list {
+  padding-left: 20px;
+  color: #333;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.experience_list li {
+  margin-bottom: 4px;
+  text-align: justify;
+}
