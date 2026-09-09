@@ -59,3 +59,34 @@ body {
   border: 3px solid #ddd;
   flex-shrink: 0;
 }
+
+/* skills */
+.skills {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 40px;
+}
+
+.skills_title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.skills_list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  padding: 0;
+}
+
+.skills_list li {
+  background: #f0f0f0;
+  padding: 6px 16px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #222;
+}
