@@ -337,6 +337,51 @@ body {
   text-align: justify;
 }
 
+/* contacts */
+.contacts {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 40px;
+}
+
+.contacts_title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.contacts_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.contacts_item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #222;
+  font-size: 15px;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.contacts_item:hover {
+  background: #e0e0e0;
+  transform: scale(1.02);
+  text-decoration: none;
+}
+
+.contacts_icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
 
 /* footer */
 .footer {
