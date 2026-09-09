@@ -76,6 +76,32 @@
       </div>
     </section>
 
+    <!-- code example -->
+    <section class="code">
+      <h2 class="code_title">Code Example</h2>
+      <p class="code_description">A simple solution for counting duplicates in an array:</p>
+      <pre class="code_block"><code>
+        function renderPaidUsers(users) {
+          return users
+            .filter(user => user.subscription === 'paid')
+            .map(user => {
+              const card = document.createElement('div');
+              card.className = 'card';
+
+              const img = document.createElement('img');
+              img.src = user.avatar;
+              img.alt = user.name;
+
+              const name = document.createElement('p');
+              name.textContent = user.name;
+
+              card.append(img, name);
+              return card;
+            });
+          }
+      </code></pre>
+    </section>
+
   </div>
 </body>
 
