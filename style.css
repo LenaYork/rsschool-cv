@@ -49,6 +49,12 @@ h2 {
   gap: 12px 20px;
 }
 
+.header_buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
 .header_title {
   font-size: 24px;
   font-weight: 700;
@@ -503,5 +509,122 @@ section {
 @media (max-width: 960px) {
   section {
     scroll-margin-top: 70px;
+  }
+}
+
+/* burger button */
+.header_burger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 28px;
+  height: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 200;
+}
+
+.header_burger span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: #222;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+body.dark .header_burger span {
+  background: #f0f0f0;
+}
+
+/* drawer */
+.drawer {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 320px;
+  max-width: 85%;
+  height: 100vh;
+  background: #fff;
+  box-shadow: -4px 0 20px rgba(0, 0, 0, 0.15);
+  z-index: 300;
+  transition: right 0.35s ease;
+  padding: 30px 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.drawer.open {
+  right: 0;
+}
+
+body.dark .drawer {
+  background: #1e1e1e;
+}
+
+.drawer_close {
+  background: none;
+  border: none;
+  font-size: 26px;
+  cursor: pointer;
+  align-self: flex-end;
+  color: #222;
+  margin-bottom: 30px;
+  line-height: 1;
+}
+
+body.dark .drawer_close {
+  color: #f0f0f0;
+}
+
+.drawer_nav {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.drawer_nav a {
+  text-decoration: none;
+  color: #222;
+  font-size: 18px;
+  transition: color 0.2s;
+}
+
+.drawer_nav a:hover {
+  color: #0066cc;
+}
+
+body.dark .drawer_nav a {
+  color: #ddd;
+}
+
+body.dark .drawer_nav a:hover {
+  color: #66b3ff;
+}
+
+.drawer_overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+  z-index: 250;
+}
+
+.drawer_overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 960px) {
+  .header_burger {
+    display: flex;
+  }
+
+  .header_nav {
+    display: none;
   }
 }
