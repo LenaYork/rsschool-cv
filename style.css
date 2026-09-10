@@ -495,3 +495,13 @@ h2 {
   width: auto;
   display: block;
 }
+
+section {
+  scroll-margin-top: 90px;
+}
+
+@media (max-width: 960px) {
+  section {
+    scroll-margin-top: 70px;
+  }
+}
