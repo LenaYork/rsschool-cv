@@ -1,0 +1,12 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066cc"/>
+      <stop offset="100%" stop-color="#1bd0e4"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#g1)"/>
+  <!-- буква H как контур -->
+  <path d="M20 16 L20 48 M44 16 L44 48 M20 32 L44 32"
+        stroke="#fff" stroke-width="6" stroke-linecap="round" fill="none"/>
+</svg>

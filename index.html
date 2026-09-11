@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helen CV</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header">
+      <div class="header_content">
+        <h1 class="header_title">Helen Baryshava</h1>
+
+        <div class="header_buttons">
+          <nav class="header_nav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#code">Code</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#languages">Languages</a>
+            <a href="#contacts">Contacts</a>
+          </nav>
+          <!-- burger button -->
+          <button class="header_burger" id="burgerBtn" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <!-- slide -->
+          <div class="drawer_overlay" id="drawerOverlay"></div>
+
+          <aside class="drawer" id="drawer">
+            <button class="drawer_close" id="drawerClose" aria-label="Close">✕</button>
+            <nav class="drawer_nav">
+              <a href="#about">About</a>
+              <a href="#skills">Skills</a>
+              <a href="#experience">Experience</a>
+              <a href="#code">Code</a>
+              <a href="#projects">Projects</a>
+              <a href="#education">Education</a>
+              <a href="#languages">Languages</a>
+              <a href="#contacts">Contacts</a>
+            </nav>
+          </aside>
+          <button class="header_theme" id="themeToggle">🌙</button>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- about -->
+    <section class="about" id="about">
+      <h2 class="about_title">About Me</h2>
+      <div class="about_content">
+        <div class="about_text">
+          <p>
+            Frontend Developer with 7+ years in programming, 4+ years with React.
+            Lead a team of 10 engineers, conduct technical interviews, and mentor developers.
+            Passionate about clean code, team growth, and work-life balance.
+            Fluent English (C1-C2). Psychological, pedagogical and engineering education.
+          </p>
+        </div>
+        <img class="about_photo" src="./images/avatar.png" alt="Helen's photo">
+      </div>
+    </section>
+
+    <!-- skills -->
+    <section class="skills" id="skills">
+      <h2 class="skills_title">Skills</h2>
+      <ul class="skills_list">
+        <li>JavaScript (ES6+)</li>
+        <li>TypeScript</li>
+        <li>React</li>
+        <li>React Native</li>
+        <li>Node.js</li>
+        <li>SCSS / CSS-in-JS</li>
+        <li>REST API</li>
+        <li>Git</li>
+      </ul>
+    </section>
+
+    <!-- experience -->
+    <section class="experience" id="experience">
+      <h2 class="experience_title">Work Experience</h2>
+
+      <div class="experience_item">
+        <h3>Frontend Developer</h3>
+        <p class="experience_meta">Sep 2023 – present · Lisbon, Portugal (Remote)</p>
+        <ul class="experience_list">
+          <li>Building responsive web interfaces with React and cross-platform mobile apps with React Native.</li>
+          <li>Delivering features from design to deployment: layouts, logic, REST API integration.</li>
+          <li>Participating in code reviews and collaboration in an Agile team.</li>
+        </ul>
+      </div>
+
+      <div class="experience_item">
+        <h3>Frontend Developer</h3>
+        <p class="experience_meta">Mar 2022 – Aug 2023 · 1 yr 6 mos · Remote (ITGirls School)</p>
+        <ul class="experience_list">
+          <li>Developed interactive UIs with React, focusing on responsive and accessible design.</li>
+          <li>Integrated RESTful APIs, participated in code reviews and mentoring.</li>
+          <li>Worked in Agile with designers and backend developers.</li>
+        </ul>
+      </div>
+
+      <div class="experience_item">
+        <h3>Web Developer</h3>
+        <p class="experience_meta">Jan 2019 – Dec 2021 · 3 yrs · Minsk, Belarus (Remote)</p>
+        <ul class="experience_list">
+          <li>Maintained and developed the organization's website and landing pages.</li>
+          <li>Implemented an automatic reposting system from social media to the website.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- code example -->
+    <section class="code" id="code">
+      <h2 class="code_title">Code Example</h2>
+      <p class="code_description">A simple solution for counting duplicates in an array:</p>
+      <pre class="code_block"><code>
+        function renderPaidUsers(users) {
+          return users
+            .filter(user => user.subscription === 'paid')
+            .map(user => {
+              const card = document.createElement('div');
+              card.className = 'card';
+
+              const img = document.createElement('img');
+              img.src = user.avatar;
+              img.alt = user.name;
+
+              const name = document.createElement('p');
+              name.textContent = user.name;
+
+              card.append(img, name);
+              return card;
+            });
+          }
+      </code></pre>
+    </section>
+
+    <!-- projects -->
+    <section class="projects" id="projects">
+      <h2 class="projects_title">Projects</h2>
+
+      <div class="projects_item">
+        <a href="https://greekcafe.netlify.app/" target="_blank">
+          <img src="images/cafe.png" alt="Café Website preview" class="projects_img">
+        </a>
+        <div class="project_info">
+          <h3>Café Website</h3>
+          <p>Bilingual website for a café with animated video footer and chatbot.</p>
+          <p class="projects_stack">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>MongoDB</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="projects_item">
+        <a href="https://greatdaily.netlify.app/" target="_blank">
+          <img src="images/greatdaily.png" alt="Great Daily preview" class="projects_img">
+        </a>
+        <div class="project_info">
+          <h3>Great Daily</h3>
+          <p>Task tracker with motivation, daily habits, themes and progress tracking.</p>
+          <p class="projects_stack">
+            <span>TypeScript</span>
+            <span>HTML</span>
+            <span>CSS</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- education -->
+    <section class="education" id="education">
+      <h2 class="education_title">Education</h2>
+
+      <div class="education_item">
+        <h3>Institute of Modern Technologies and Management (ISTIM)</h3>
+        <p class="education_meta">Bachelor's degree, Software Engineering · May 2025 – Oct 2025</p>
+        <p class="education_note">Second higher education (accelerated program for professionals). State-recognized
+          diploma.</p>
+      </div>
+
+      <div class="education_item">
+        <h3>Belarusian State Pedagogical University</h3>
+        <p class="education_meta">Bachelor's degree, Practical Psychology & Foreign Language (English) · Sep 2008 – Jul
+          2013</p>
+      </div>
+    </section>
+
+    <!-- english -->
+    <section class="english" id="languages">
+      <h2 class="english_title">Languages</h2>
+
+      <div class="english_item">
+        <h3>English - C1 (Advanced)</h3>
+        <p>
+          English is my main working language. I've been teaching it for over 13 years
+          and use it daily in an international multilingual team, both for formal
+          communication and everyday conversations. I also live in Europe, so English
+          is a part of my daily life.
+        </p>
+      </div>
+
+      <div class="english_item">
+        <h3>Russian - C2 (Native)</h3>
+      </div>
+
+      <div class="english_item">
+        <h3>Belarusian - Native</h3>
+      </div>
+
+      <div class="english_item">
+        <h3>Polish - A1 (Beginner)</h3>
+      </div>
+    </section>
+
+    <!-- contacts -->
+    <section class="contacts" id="contacts">
+      <h2 class="contacts_title">Contacts</h2>
+      <div class="contacts_list">
+        <a href="https://github.com/LenaYork" target="_blank" class="contacts_item">
+          <img src="images/github.svg" alt="GitHub" class="contacts_icon">
+          GitHub
+        </a>
+        <a href="https://discord.com/users/546653665281441792" target="_blank" class="contacts_item">
+          <img src="images/discord.svg" alt="Discord" class="contacts_icon">
+          Discord
+        </a>
+        <a href="mailto:leenabarysheva@gmail.com" class="contacts_item">
+          <img src="images/gmail.svg" alt="Email" class="contacts_icon">
+          Email
+        </a>
+        <a href="https://t.me/happiness1000" target="_blank" class="contacts_item">
+          <img src="images/telegram.svg" alt="Telegram" class="contacts_icon">
+          Telegram
+        </a>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer_content">
+        <a href="https://github.com/LenaYork" target="_blank">
+          <img src="images/github_logo.png" alt="GitHub" class="footer_icon">
+        </a>
+
+        <span class="footer_year">2026</span>
+
+        <a href="https://rs.school/courses/short-track" target="_blank">
+          <img src="images/rs_school_logo.png" alt="RS School logo" class="footer_logo">
+        </a>
+      </div>
+    </footer>
+
+  </div>
+  <!-- cursor magic -->
+  <canvas id="cursorCanvas"></canvas>
+  <div class="cursor_wrapper">
+    <button class="cursor_toggle" id="cursorToggle" aria-label="Toggle magic cursor">
+      <span class="cursor_toggle_icon">🪄</span>
+      <span class="cursor_toggle_strike"></span>
+    </button>
+    <span class="cursor_tooltip" id="cursorTooltip">Disable magic</span>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
